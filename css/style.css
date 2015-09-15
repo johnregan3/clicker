@@ -1,0 +1,189 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/_base.scss */
+*[hidden] {
+  display: none;
+}
+
+/* line 11, ../sass/_base.scss */
+body {
+  font-family: 'Play', 'Arial', 'Helvetica', sans-serif;
+}
+
+/* line 15, ../sass/_base.scss */
+.container {
+  padding-top: 40px;
+}
+
+/* line 19, ../sass/_base.scss */
+.bucks-title {
+  font-size: 3em;
+}
+
+/* line 22, ../sass/_base.scss */
+.bucks {
+  font-size: 1em;
+}
+
+/* line 26, ../sass/_base.scss */
+.tier-label {
+  background: #eee;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  float: left;
+  padding: 10px 40px;
+  margin-bottom: -1px;
+}
+
+/* line 35, ../sass/_base.scss */
+.tier-businesses {
+  border: 1px solid #eee;
+  border-top-color: transparent;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 45, ../sass/_base.scss */
+.business {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+/* line 50, ../sass/_base.scss */
+.business .business-wrap {
+  padding: 0 10px 10px;
+}
+
+/* line 55, ../sass/_base.scss */
+.business:last-child {
+  border-bottom: 0;
+}
+
+/* line 59, ../sass/_base.scss */
+.business-icon {
+  width: 60px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 66, ../sass/_base.scss */
+.interface {
+  float: left;
+}
+
+/* line 70, ../sass/_base.scss */
+.business .btn-xs {
+  margin-top: 10px;
+}
+
+/* line 74, ../sass/_base.scss */
+.bps-wrap {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 8px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+/* line 82, ../sass/_base.scss */
+.progress-bar-wrap {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background: #f8f8f8;
+  margin-bottom: 10px;
+  border-top: 1px solid #eee;
+}
+/* line 90, ../sass/_base.scss */
+.progress-bar-wrap .progress-bar {
+  position: absolute;
+  width: 10%;
+  background: #337ab7;
+}
+
+/* line 99, ../sass/_base.scss */
+.not-purchased .progress-bar-wrap .progress-bar {
+  width: 0;
+}
+
+/*--------------------------------------------------------------
+# Desktop Styles
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Widescreen Styles
+--------------------------------------------------------------*/
